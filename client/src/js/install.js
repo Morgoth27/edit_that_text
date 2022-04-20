@@ -22,5 +22,5 @@ butInstall.addEventListener('click', async () => {
 // an handler for the `appinstalled` event
 window.addEventListener('appinstalled', (event) => {
     window.heldPrompt = undefined;
-    delete(heldPrompt)
+    // delete(heldPrompt)
 });
