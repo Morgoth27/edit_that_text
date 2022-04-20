@@ -30,7 +30,7 @@ export const getDb = async () => {
   const textEditDb = await openDB('textEdit', 1);
   const tx = textEditDb.transaction('textEdit', 'readonly');
   const store = tx.objectStore('textEdit');
-  const request = store.getAll();
+  const request = store.get(1);
   const result = await request;
   console.log('result.value', result);
   return result;
