@@ -14,12 +14,13 @@ butInstall.addEventListener('click', async () => {
     eventPopup.prompt();
 
     window.heldPrompt = undefined;
-    delete(heldPrompt)
+    // delete(heldPrompt)
 
     butInstall.classList.toggle('hidden', true);
 });
 
 // an handler for the `appinstalled` event
 window.addEventListener('appinstalled', (event) => {
-
+    window.heldPrompt = undefined;
+    delete(heldPrompt)
 });
