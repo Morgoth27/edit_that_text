@@ -79,7 +79,6 @@ npm i
 
 **Tiffany Hing**
 
-* Email: [leopardmitai@gmail.com](mailto:leopardmitai@gmail.com)
 
 * [GitHub ](http://www.github.com/Morgoth27)
 
